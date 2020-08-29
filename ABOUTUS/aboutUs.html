@@ -1,0 +1,546 @@
+<html>
+    <head>
+        <title>Mediamart</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="aboutUs.css">
+        <script src="../html5shiv/dist/html5shiv-printshiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        <div class="overlay pop"></div>
+        <div class="popUp">
+            <i class="fas fa-times-circle"></i>
+            <div class="overlayGrad">
+                <h3>sign up to newsletter</h3>
+                <p>Receive email-only deals, special offers &amp; product exclusives</p>
+                <input type="text" placeholder="enter your email">
+                <button class="btn">subscribe</button>
+            </div>
+        </div>
+        
+        <div class="toTopButton"><i class="fas fa-angle-double-up"></i></div>
+        
+        <section class="topBar hidden-xs hidden-sm">
+            <div class="media">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-skype"></i>
+            </div>
+            <div class="account dropdown">
+                <h5 class="dropdown-toggle" data-dropdown="#account"><i class="fas fa-user"></i>my account</h5>
+                <div class="dropdown-menu" id="account">
+                    <a class="dropdown-item"><i class="fas fa-sign-in-alt"></i>log in</a>
+                    <a class="dropdown-item"><i class="fas fa-user-plus"></i>register</a>
+                    <a class="dropdown-item"><i class="fas fa-check-circle"></i>check out</a>
+                    <a class="dropdown-item"><i class="fas fa-heart"></i> wishlist</a>
+                </div>
+            </div>
+            <div class="currency dropdown">
+                <h5 class="dropdown-toggle" data-dropdown="#currency">usd</h5>
+                <div class="dropdown-menu" id="currency">
+                    <a class="dropdown-item active" href="#">usd</a>
+                    <a class="dropdown-item" href="#">eur</a>
+                    <a class="dropdown-item" href="#">gbp</a>
+                </div>
+            </div>
+        </section>
+        
+        <div class="navBarToggler visible-sm visible-xs">
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+        
+        <section class="headerBar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-5">
+                        <div class="logo">
+                            <h2>mediamart</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-5 col-sm-7">
+                        <div class="search">
+                            <input type="text" placeholder="enter your keyword">
+                        <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <div class="support">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <h6>support@domain.com</h6>
+                                    <h6>0123-456-789</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-2 col-xs-6">
+                        <div class="shopping">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <div class="items">0</div>
+                                </div>
+                                <div class="col-md-10">
+                                    <h6>my cart</h6>
+                                    <h6 class="price">$0.00</h6>
+                                    <div class="message">
+                                        your cart is empty
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="dropdown">
+                            <h3 class="dropdown-toggler" data-dropdown="#cateogries"><i class="fas fa-bars"></i> shop by categories</h3>
+                            <div class="dropdown-menu" id="cateogries">
+                                <a class="dropdown-item" data-target="#homeAppliance">home appliance</a>
+                                <a class="dropdown-item" data-target="#electronics">electronics</a>
+                                <a class="dropdown-item" data-target="#audio">audio &amp; sound </a>
+                                <a class="dropdown-item" data-target="#smartphones">smartphones &amp; tablets</a>
+                                <a class="dropdown-item">game devices &amp; accessories</a>
+                                <a class="dropdown-item">smart home</a>
+                                <a class="dropdown-item">security devices</a>
+                                <a class="dropdown-item">computers &amp; networking</a>
+                                <a class="dropdown-item">laptops &amp; accessories</a>
+                                <a class="dropdown-item">smart watches</a>
+                                <a class="dropdown-item"><i class="fas fa-plus-circle"></i> show more</a>
+                            </div>
+                            <div class="sidemenu-dropdown">
+                                <div class="dropdown-menu" id="homeAppliance">
+                                    <a class="dropdown-item">aliqum lobortis</a>
+                                    <a class="dropdown-item">suid reprehenderit</a>
+                                    <a class="dropdown-item">pageMaker including</a>
+                                    <a class="dropdown-item">only five centuries</a>
+                                    <a class="dropdown-item">established fact</a>
+                                </div>
+                                
+                                <div class="dropdown-menu" id="electronics">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h3>houseware</h3>
+                                            <a class="dropdown-item">fridge</a>
+                                            <a class="dropdown-item">air conditioning</a>
+                                            <a class="dropdown-item">electric fan</a>
+                                            <a class="dropdown-item">spray mist fan</a>
+                                            <a class="dropdown-item">vacuum cleaner</a>
+                                            <a class="dropdown-item">washing machine</a>
+                                            <a class="dropdown-item">cooker</a>
+                                            <a class="dropdown-item">television</a>
+                                            <a class="dropdown-item">heater</a>
+                                            <a class="dropdown-item">water purifier</a>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h3>kitchen equipment</h3>
+                                            <a class="dropdown-item">cooker</a>
+                                            <a class="dropdown-item">microwave</a>
+                                            <a class="dropdown-item">dishwasher</a>
+                                            <a class="dropdown-item">dryer</a>
+                                            <a class="dropdown-item">kitchen infrared</a>
+                                            <a class="dropdown-item">gas stove</a>
+                                            <a class="dropdown-item">oven</a>
+                                            <a class="dropdown-item">water boiler</a>
+                                            <a class="dropdown-item">blender</a>
+                                            <a class="dropdown-item">fruit presses</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="dropdown-menu" id="audio">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h3>speaker</h3>
+                                            <a class="dropdown-item">lansing products</a>
+                                            <a class="dropdown-item">UFI products</a>
+                                            <a class="dropdown-item">edifier products</a>
+                                            <a class="dropdown-item">sarotech products</a>
+                                            <a class="dropdown-item">plantronics products</a>
+                                            <a class="dropdown-item">sennheiser products</a>
+                                            <a class="dropdown-item">mionix products</a>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <h3>headphone</h3>
+                                            <a class="dropdown-item">lansing products</a>
+                                            <a class="dropdown-item">UFI products</a>
+                                            <a class="dropdown-item">edifier products</a>
+                                            <a class="dropdown-item">sarotech products</a>
+                                            <a class="dropdown-item">plantronics products</a>
+                                            <a class="dropdown-item">sennheiser products</a>
+                                            <a class="dropdown-item">mionix products</a>
+                                        </div>
+                                        
+                                        <div class="col-md-4">
+                                            <h3>speaker</h3>
+                                            <a class="dropdown-item">lansing products</a>
+                                            <a class="dropdown-item">UFI products</a>
+                                            <a class="dropdown-item">edifier products</a>
+                                            <a class="dropdown-item">sarotech products</a>
+                                            <a class="dropdown-item">plantronics products</a>
+                                            <a class="dropdown-item">sennheiser products</a>
+                                            <a class="dropdown-item">mionix products</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="dropdown-menu" id="smartphones">
+                                    <div class="col-md-6">
+                                        <h3>tablet</h3>
+                                        <a class="dropdown-item">asus</a>
+                                        <a class="dropdown-item">lenovo</a>
+                                        <a class="dropdown-item">samsung</a>
+                                        <a class="dropdown-item">iPad</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3>iPhone</h3>
+                                        <a class="dropdown-item">accsesories</a>
+                                        <a class="dropdown-item">iPhone 6s / 6s plus</a>
+                                        <a class="dropdown-item">iPhone 7 / 7 plus</a>
+                                        <a class="dropdown-item">iPhone X</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3>andriod phone</h3>
+                                        <a class="dropdown-item">sony</a>
+                                        <a class="dropdown-item">nokia</a>
+                                        <a class="dropdown-item">lenovo</a>
+                                        <a class="dropdown-item">samsung</a>
+                                        <a class="dropdown-item">samsung galaxy</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3>accessories</h3>
+                                        <a class="dropdown-item">headphone</a>
+                                        <a class="dropdown-item">bakeup charger</a>
+                                        <a class="dropdown-item">rechargable cable</a>
+                                        <a class="dropdown-item">tempered glass</a>
+                                        <a class="dropdown-item">memory stick</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="navbar">
+                            <h4 class="visible-sm visible-xs">main menu <i class="fas fa-times"></i></h4>
+                            <ul>
+                                <li><a href="../HOME/home.html">home</a></li>
+                                <li><a href="../BLOG/blog.html">blog</a></li>
+                                <li><a class="dropdown-toggler" data-target="#rec">recruitment</a></li>
+                                <li><a href="../ABOUTUS/
+                                    aboutUs.html" class="active">about us</a></li>
+                                <li><a>help</a></li>
+                                <li><a href="../CONTACT/contact.html">contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-menu recruitment" id="rec">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h3>laptop</h3>
+                                    <h4>elite book</h4>
+                                    <hr>
+                                    <h4>lenovo yoga</h4>
+                                    <hr>
+                                    <h4>probook</h4>
+                                    <hr>
+                                    <h4>dell precision</h4>
+                                    <hr>
+                                    <h4>dell alienware</h4>
+                                    <hr>
+                                    <h4>HP pavillion</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <h3>electronics</h3>
+                                    <h4>fridge</h4>
+                                    <hr>
+                                    <h4>air conditioning</h4>
+                                    <hr>
+                                    <h4>electric fan</h4>
+                                    <hr>
+                                    <h4>spray mist fan</h4>
+                                    <hr>
+                                    <h4>vacuum cleaner</h4>
+                                    <hr>
+                                    <h4>washing machine</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <h3>audio</h3>
+                                    <h4>lansing products</h4>
+                                    <hr>
+                                    <h4>UFi products</h4>
+                                    <hr>
+                                    <h4>edifier products</h4>
+                                    <hr>
+                                    <h4>saritech products</h4>
+                                    <hr>
+                                    <h4>plantronics products</h4>
+                                    <hr>
+                                    <h4>sennhesier products</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <h3>smartphones</h3>
+                                    <h4>OPPO</h4>
+                                    <hr>
+                                    <h4>samsung</h4>
+                                    <hr>
+                                    <h4>sony</h4>
+                                    <hr>
+                                    <h4>HTC</h4>
+                                    <hr>
+                                    <h4>huawie</h4>
+                                    <hr>
+                                    <h4>nokia</h4>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="../images/wp2496622.jpg">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="../images/leather-case-for-iphone-7-black-003.jpg">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="../images/BaYAsvDsFJta8iRSPHgD6o.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <header>
+            <div class="overlay">
+                <h3>about us</h3>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item active"><a href="../HOME/home.html">Home</a></li>
+                      <i class="fas fa-angle-right"></i>
+                      <li>about us</li>
+                  </ol>
+                </nav>
+            </div>
+        </header>
+        
+        <section class="split">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="../images/The-Fairytale-Traveler-2.jpg">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="content">
+                            <i class="fas fa-quote-left"></i>
+                            <h2>who we are</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="content">
+                            <i class="fas fa-quote-left"></i>
+                            <h2>what we do</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimnderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="../images/banner-blog-6_4b3df0ad-1ea2-4114-9ee9-4a5afc5c3ed7_1200x.png">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="../images/cellphone-and-headphone-on-laptop-keypad-over-the-colored-background_23-2147889271.jpg">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="content">
+                            <h2>meet our team</h2>
+                            <div id="carousel" class="slide">
+                                <ul class="indicators">
+                                  <li data-target="#carousel" data-slide="0" class="active"></li>
+                                  <li data-target="#carousel" data-slide="1"></li>
+                                  <li data-target="#carousel" data-slide="2"></li>
+                                </ul>
+                                <div class="inner">
+                                  <div class="item active">
+                                    <div class="caption">
+                                        <h4>william james</h4>
+                                      <h5>designer - stylish</h5>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    </div>
+                                  </div>
+                                  <div class="item">
+                                    <div class="caption">
+                                        <h4>esward snowden</h4>
+                                      <h5>american</h5>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud voluptate velit esse cillum dolore eu fugiat nulla pariatur..</p>
+                                    </div>
+                                  </div>
+                                  <div class="item">
+                                    <div class="caption">
+                                        <h4>micheal huisman</h4>
+                                      <h5>hairstylr</h5>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                            <div class="media">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-skype"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+          
+        <footer>
+            <section class="subscribe">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <input type="text" placeholder="enter your email">
+                            <button class="btn">subscribe</button>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <h5>sign up for our newsletter</h5>
+                            <p>Receive email-only deals, special offers</p>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="payments">
+                                <div>
+                                    <img src="../images/visa.png">
+                                </div>
+                                <div>
+                                    <img src="../images/Master-Card-icon.png">
+                                </div>
+                                <div>
+                                    <img src="../images/paypal-icon-27.jpg">
+                                </div>
+                                <div>
+                                    <img src="../images/skrill2.png">
+                                </div>
+                                <div>
+                                    <img src="../images/Cirrus.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-3">
+                            <h5>corporate info</h5>
+                            <p>who we are ?</p>
+                            <p>corporate responsibility</p>
+                            <p>california laws</p>
+                            <p>careers</p>
+                            <p>privacy policy</p>
+                            <p>terms of use</p>
+                        </div>
+                        
+                        <div class="col-md-2 col-sm-3">
+                            <h5>my account</h5>
+                            <p>sitemap</p>
+                            <p>privacy policy</p>
+                            <p>my account</p>
+                            <p>advanced search</p>
+                            <p>contact us</p>
+                            <p>my wishlist</p>
+                        </div>
+
+                        <div class="col-md-2 col-sm-3">
+                            <h5>need help</h5>
+                            <p>order tracking</p>
+                            <p>the privacy policy</p>
+                            <p>payments &amp; returns</p>
+                            <p>size guide</p>
+                            <p>product care</p>
+                            <p>FAQ's</p>
+                        </div>
+                        
+                        <div class="col-md-2 col-sm-3">
+                            <h5>save money</h5>
+                            <p>discount codes</p>
+                            <p>computer sales</p>
+                            <p>special offers</p>
+                            <p>today deals</p>
+                            <p>A-Z vouchers directory</p>
+                            <p>on sale</p>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-12">
+                            <h5>contact us</h5>
+                            <div>
+                                <h6><i class="fas fa-home"></i> address : </h6>
+                                <p>20 example st. , district ,city</p>
+                            </div>
+                            
+                            <div>
+                                <h6><i class="fas fa-phone"></i> hotline : </h6>
+                                <p>0999</p>
+                            </div>
+                            <div>
+                                <h6><i class="fas fa-envelope"></i> email : </h6>
+                                <p>support@domain.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="copyrights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <p><span>Copyright &copy; </span>2018 Vinovatheme. All rights reserved.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="../images/playstoreerrors-featured.jpg">
+                            <img src="../images/apple_donwload.jpg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        
+
+        <script src="../Jquery/Jquery3.3.1.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="aboutUs.js"></script>
+    </body>
+</html>

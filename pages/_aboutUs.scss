@@ -1,0 +1,85 @@
+/*styling*/
+
+.overlay.pop{
+    @include overlay(#333, 0.8);
+    display: none;
+    z-index: 99999;
+}
+.popUp{
+    display: none;
+    z-index: 99999;
+}
+
+header{
+    height: 400px;
+    background: url("../images/GadgetMatch-2017-07-07-Pink-Smartphones-Featured-Image-01.jpg") no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    .overlay{
+        padding-top: 150px;
+        .breadcrumb{
+            background: transparent;
+            li{
+                font-size: 18px;
+                a{color: $greyColor}
+            }
+            i{margin: 0 7px}
+        }
+    }
+    
+}
+
+.split{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .row>div{
+        padding: 0;
+        height: 500px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .content{
+        padding: 20px 30px;
+        i{
+            font-size: 50px;
+            color: #DDD;
+        }
+        h2{
+            color: $themeColor;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 40px;
+            letter-spacing: -1;
+            font-family: 'Cairo', sans-serif;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 16px;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            
+        }
+        .media{
+            margin-top: 50px;
+            i{
+                font-size: 22px;
+                margin: 0 5px;
+                width:45px;
+                height: 45px;
+                color: white;
+                background-color: $greyColor;
+                cursor: pointer;
+                border-radius: 50%;
+                padding: 12px 10px 10px 12px;
+                &.fa-facebook-f{
+                    padding-left: 16px;
+                }
+            }
+        }
+    }
+}

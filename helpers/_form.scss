@@ -1,0 +1,33 @@
+form{
+    h2{
+        color: $themeColor;
+        margin-bottom: 30px;
+    }
+    input,
+    textarea{
+        width:80%;
+        display: block;
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 10px 10px;
+        border:none;
+        border : 1px solid #CCC;
+        margin-bottom: 20px;
+        border-radius: 8px
+    }
+    textarea{height: 150px}
+    button.btn{
+        text-transform: uppercase;
+        letter-spacing: 1;
+        background-color: transparent;
+        border-color: #CCC;
+        margin: 20px 0 30px;
+        padding: 12px 20px;
+        border-radius: 23px;
+        @include transition(all,0.4s);
+        &:hover{
+            background-color: #333;
+            color: white;
+        }
+    }
+}

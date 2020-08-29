@@ -1,0 +1,13 @@
+.message{
+    text-transform: capitalize;
+    background-color: white;
+    border: 1px solid #EEE;
+    padding: 20px 40px;
+    min-width: 160%;
+    box-shadow: 1px 1px 5px 1px #EEE;
+    position: absolute;
+    left: 0;
+    top: 106%;
+    z-index: 9999;
+    display: none;
+}

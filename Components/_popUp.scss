@@ -1,0 +1,58 @@
+body{position: relative}
+.popUp{
+    width:40%;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    border: 8px solid white;
+    border-radius: 5px;
+    margin-top: 170px;
+    background:url("../images/cellphone-and-headphone-on-laptop-keypad-over-the-colored-background_23-2147889271.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+    position: absolute;
+    left:30%;
+    @media #{$maxSmall}{
+        width:96%;
+        left: 2%;
+    }
+    i.fa-times{
+        position: absolute;
+        top: -15px;
+        right: -18px;
+        color: $themeColor;
+        font-size: 25px;
+        cursor: pointer;
+        z-index: 9999999;
+    }
+    .overlayGrad{
+        padding: 60px 40px;
+        @include overlayGrad(0.9, $themeColor, #00a8ff, to bottom right);
+        
+        h3{text-transform: uppercase}
+        p{
+            font-size: 18px;
+            margin: 30px 0 35px;
+        }
+        input{
+            height: 45px;
+            width: 60%;
+            padding: 10px;
+            text-transform: capitalize;
+            border-radius: 7px;
+            border-color: transparent;
+        }
+        button.btn{
+            margin-left: -20px;
+            height: 46;
+            background: red;
+            padding: 10px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            z-index: 50;
+        }
+    }
+    
+}

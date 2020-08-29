@@ -1,0 +1,3 @@
+@mixin transition($element, $time){
+    transition: $element $time;
+}

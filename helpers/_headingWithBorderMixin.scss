@@ -1,0 +1,12 @@
+@mixin headingBorder(){
+    &:after{
+        content: '';
+        width: 53%;
+        height: 1px;
+        background-color: #DDD;
+        position: absolute;
+        top:60%;
+        right: 0;
+        z-index: -1;
+    }
+}

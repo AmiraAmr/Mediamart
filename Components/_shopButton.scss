@@ -1,0 +1,14 @@
+%shopButton{
+    background-color: #EEE;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Cairo', sans-serif;
+    padding: 10px 18px;
+    margin-top: 20px;
+    border-radius: 22px;
+    @include transition (all,0.4s);
+    &:hover{
+        background-color: $themeColor;
+        color: white;
+    }
+}

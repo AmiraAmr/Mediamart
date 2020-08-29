@@ -1,0 +1,65 @@
+/*styling*/
+
+.overlay.pop{
+    @include overlay(#333, 0.8);
+    display: none;
+    z-index: 99999;
+}
+.popUp{
+    display: none;
+    z-index: 99999;
+}
+
+header{
+    height: 400px;
+    background: url("../images/ContactUs_Cover.jpg") no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    .overlay{
+        padding-top: 150px;
+        .breadcrumb{
+            background: transparent;
+            li{
+                font-size: 18px;
+                text-transform: capitalize;
+                a{color: $greyColor}
+            }
+            i{margin: 0 7px}
+        }
+    }
+    
+}
+
+.split{
+    margin-top: 40px;
+    position: relative;
+    .contact{
+        padding-top: 40px;
+        h6{
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: 'Cairo', sans-serif;
+            color: #666;
+            display: inline-block;
+            font-weight: bold;
+            i{
+                border:1px solid transparent;
+                border-radius: 4px;
+                color: white;
+                background-color: $themeColor;
+                margin: 7px;
+                padding: 6px 7px;
+                margin-bottom: 25px;
+            }
+        }
+        p{display: inline-table;margin: 0 7px}
+    }
+    img{
+        width:210px;
+        bottom: -10px;
+        left: -250px;
+        position: absolute;
+    }
+}

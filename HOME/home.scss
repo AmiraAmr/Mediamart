@@ -1,0 +1,17 @@
+/*IMPORTING*/
+@import "helpers/_variables";
+@import "helpers/_overlayMixin";
+@import "components/_popUp";
+@import "helpers/_transitionMixin";
+@import "components/_toTopButton";
+@import "components/_dropdownMenu";
+@import "components/_message";
+@import "helpers/_headingWithBorderMixin";
+@import "components/_shopButton";
+@import "components/_itemPopUp";
+
+
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
+
+@import "pages/_home.scss";
